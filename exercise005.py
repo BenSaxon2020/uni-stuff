@@ -46,8 +46,6 @@ choise = str(input("you selected: "))
 # if choise.lower() != "q":
 choise=choise.upper()
 try:
-    # choise = int(choise)
-    # check(choise)
     if choise in opt1:
         print(opt1)
     elif choise in opt2:

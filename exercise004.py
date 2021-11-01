@@ -103,9 +103,7 @@ print ("\nExercise 0004d\n")
 
 for x in range(101):
     if (x % 5) == 0:
-        print("flip")
-    if (x % 5) == 0:
-        print("flip")
+        print("flop")
     else:
         print(x)
 
@@ -118,9 +116,9 @@ print ("\nExercise 0004e\n")
 
 for x in range(101):
     if (x % 3) == 0:
-        print("flip")
+        print("flipflop")
     elif (x % 5) == 0:
-        print("flip")
+        print("flipflop")
     else:
         print(x)
 
