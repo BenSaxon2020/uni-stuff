@@ -13,11 +13,15 @@ def guess():
 
 
 num = r.randrange(101)
-print(num)
+# print(num)
 
 while  gues != num:   
     guesses = guesses+1
     print("guess number: ", guesses)
+    if num >= gues:
+        print("higher")
+    elif num <= gues:
+        print("lower")
     gues = guess()
 
 print ("correct guess welldone!")

@@ -79,7 +79,7 @@ print ("\nExercise 0004b\n")
 # 12 x 12 = 144
 
 for x in range(12):
-    print(x*12)
+    print(f"{x} * 12 = ", x*12)
 
 
 # Exercise 004c
